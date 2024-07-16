@@ -1,0 +1,17 @@
+{
+  "name": "doc-ock",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This Node.js script crawls a list of URLs, saves each page as a PDF, and then merges all PDFs into a single file.",
+  "main": "doc-ock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdf-merger-js": "^5.1.2",
+    "puppeteer": "^22.13.0"
+  }
+}
